@@ -1,0 +1,8 @@
+template: istio-service
+deployments:
+  development:
+    target: default
+    clusters: 1
+    values:
+      image: rancher/hello-world:v0.1.2
+      port: 80
