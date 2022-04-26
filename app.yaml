@@ -1,6 +1,6 @@
 template: istio-service
 deployments:
-  development:
+  production:
     target: production
     clusters: 1
     values:
