@@ -1,7 +1,7 @@
 template: istio-service
 deployments:
   development:
-    target: default
+    target: production
     clusters: 1
     values:
       image: rancher/hello-world:v0.1.2
