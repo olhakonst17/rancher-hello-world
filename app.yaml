@@ -14,3 +14,4 @@ deployments:
       repository: https://github.com/kaizentm/gitops-manifests
       branch: prod
       folder: rancher-hello-world
+      zarf.image.tag: kaizentm//hello-world:zarf
