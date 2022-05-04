@@ -1,0 +1,5 @@
+app:
+  name: rancher-hello-world
+  workspace: kaizen 
+replicas: 1
+port: 80
